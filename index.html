@@ -319,6 +319,19 @@
     content: '— ';
     color: rgba(240,237,232,0.28);
   }
+
+  .date-tag {
+    display: inline-block;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--black);
+    background: var(--white);
+    padding: 3px 8px;
+    vertical-align: middle;
+    margin-left: 10px;
+    text-transform: lowercase;
+    opacity: 0.85;
+  }
 </style>
 </head>
 <body>
@@ -380,7 +393,7 @@
       </a>
     </nav>
 
-    <p class="date">6.27.26 &nbsp; 3pm – 8pm</p>
+    <p class="date"><span class="date-tag">date changed</span><br>7.1.26 &nbsp; 3pm – 8pm</p>
 
 
   </section>
@@ -427,7 +440,7 @@
         </ul>
       </div>
 
-      <p class="about-foot">35.325197° N &nbsp;&middot;&nbsp; 82.880279° W &nbsp;&middot;&nbsp; 6.27.26 &nbsp; 3pm – 8pm</p>
+      <p class="about-foot">35.325197° N &nbsp;&middot;&nbsp; 82.880279° W &nbsp;&middot;&nbsp; <span class="date-tag">date changed</span><br>7.1.26 &nbsp; 3pm – 8pm</p>
     </div>
   </section>
 
